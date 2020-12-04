@@ -1,3 +1,5 @@
+Welcome to My Calculator! This is a simple app to emulate the behavior of a basic calculator.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

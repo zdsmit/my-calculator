@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Display extends Component {
+export default class Display extends Component {
     
     constructor() {
         super()
@@ -8,7 +8,9 @@ class Display extends Component {
 
     render() {
         return(
-            <div></div>
+            <div>
+                0
+            </div>
         )
     }
 } 

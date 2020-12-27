@@ -38,5 +38,11 @@
 }
 
 .btn-group {
-  float: left;
+  float: center;
+}
+
+.component-group {
+  display: 'flex';
+  align-items: center;
+  justify-content: center;
 }

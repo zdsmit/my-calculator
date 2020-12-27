@@ -5,7 +5,7 @@ import Buttons from './Buttons';
 export default class Calculator extends Component {
     render() {
         return (
-            <div>
+            <div class="component-group">
                 <Display />
                 <Buttons />
             </div>

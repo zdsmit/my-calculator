@@ -28,6 +28,13 @@ export default class Buttons extends Component {
                   <Button value="9"/>
                   <Button value="*"/>
                 </div>
+
+                <div>
+                  <Button value="/"/>
+                  <Button value="0"/>
+                  <Button value="."/>
+                  <Button value="="/>
+                </div>
             </div>
         )
     }

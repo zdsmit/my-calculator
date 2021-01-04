@@ -38,10 +38,16 @@
 }
 
 .btn-group {
-  float: center;
+  float: left;
 }
 
 .component-group {
+  display: 'flex';
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-buttons {
   display: 'flex';
   align-items: center;
   justify-content: center;

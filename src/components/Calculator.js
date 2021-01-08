@@ -6,14 +6,16 @@ export default class Calculator extends Component {
     constructor() {
         super()
         this.state = {
-            numberValues: ""
+            prevValue: 0,
+            displayValue: 0,
+            signValue: ''
         }
     }
 
     render() {
         return (
             <div class="component-group">
-                <Display />
+                <Display prevValue={this.state.prevValue} displayValue={this.state.displayValue} signValue={this.state.signValue}/>
                 <Buttons />
             </div>
         )

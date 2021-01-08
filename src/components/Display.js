@@ -8,8 +8,8 @@ export default class Display extends Component {
 
     render() {
         return(
-            <div>
-                0
+            <div class="btn-group">
+                {this.props.displayValue}
             </div>
         )
     }

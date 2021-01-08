@@ -12,10 +12,18 @@ export default class Calculator extends Component {
         }
     }
 
+    updateDisplay = (value) => {
+        this.setState({
+            displayValue: value
+        })
+    }
+
     render() {
         return (
             <div class="component-group">
                 <Display prevValue={this.state.prevValue} displayValue={this.state.displayValue} signValue={this.state.signValue}/>
+                <br />
+                <br />
                 <Buttons />
             </div>
         )

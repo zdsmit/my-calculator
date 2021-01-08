@@ -16,27 +16,27 @@ export default class Buttons extends Component {
                 </div>
 
                 <div class="btn-group">
-                  <Button value="2"/>
-                  <Button value="5"/>
-                  <Button value="8"/>
-                  <Button value="-"/>
+                  <Button value="2" />
+                  <Button value="5" />
+                  <Button value="8" />
+                  <Button value="-" />
                   <br />
                 </div>
 
                 <div class="btn-group">
-                  <Button value="3"/>
-                  <Button value="6"/>
-                  <Button value="9"/>
-                  <Button value="*"/>
+                  <Button value="3" />
+                  <Button value="6" />
+                  <Button value="9" />
+                  <Button value="*" />
                   <br />
                 </div>
 
                 <div class="btn-group">
-                  <Button value="0"/>
-                  <Button value="="/>
-                  <Button value="."/>
-                  <Button value="/"/>
-                  <Button value="C"/>
+                  <Button value="0" />
+                  <Button value="=" />
+                  <Button value="." />
+                  <Button value="/" />
+                  <Button value="C" />
                 </div>
             </div>
         )
